@@ -1,0 +1,2 @@
+En sí, no hay mucha difrencia, o por lo menos, personalmente no logré encontrar muchas, más que el valor devuelto por la condición, ya que en el lenguaje de C++ se nos devuelve un 1 y un 0 y en el de Java un True 
+y un False
