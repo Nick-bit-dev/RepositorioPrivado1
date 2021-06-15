@@ -12,12 +12,12 @@ int main()
     cout << "Ingresar el valor del termino independiente"<< endl;
     cin >> c;
     delta = (pow(b,2)-4*a*c);
-    x = -(b-sqrt(pow(b,2)-4*a*c))/(2*a);
-    y = -(b+sqrt(pow(b,2)-4*a*c))/(2*a);
     if (delta<0 || a==0)
-    cout << "No se puede resolver si el determinante es negativo o el termino cuadratico es 0" << endl;
+        cout << "No se puede resolver si el determinante es negativo o el termino cuadratico es 0" << endl;
     else
-    {cout << "X1: " << x << endl;
+    {x = -(b-sqrt(pow(b,2)-4*a*c))/(2*a);
+    y = -(b+sqrt(pow(b,2)-4*a*c))/(2*a);
+    cout << "X1: " << x << endl;
     cout << "X2: " << y << endl;
     }
     return 0;
